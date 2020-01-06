@@ -1,7 +1,7 @@
 ## Line Based Lidar Camera Calibration
 We propose a lidar and camera calibration method which uses Resection loss to calculate the rotation and translation matrices.  
 
-[![](https://drive.google.com/open?id=1WWuaMlYl_rD1BXUh1Utm3mnFUZhKcOJ6)](https://drive.google.com/open?id=1WWuaMlYl_rD1BXUh1Utm3mnFUZhKcOJ6)
+[![](https://drive.google.com/file/d/1WWuaMlYl_rD1BXUh1Utm3mnFUZhKcOJ6/view?usp=sharing)](https://drive.google.com/file/d/1WWuaMlYl_rD1BXUh1Utm3mnFUZhKcOJ6/view?usp=sharing)
 
 In the image above, "AB" is the 3D line segment, " A'B' " is the projection of AB line on the image plane and "ab" is the 2D line segment in the image.
 
