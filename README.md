@@ -25,6 +25,8 @@ Fig. Image.png
 Fig. raw pointcloud
 
 ## lsd detector
+LSD used here is explained in the paper - ![LSD: A Fast Line Segment Detector with a False Detection Control](https://ieeexplore.ieee.org/document/4731268). it's implementation can be found here - ![Github link](https://github.com/theWorldCreator/LSD)
+
 ![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/img_line_detection_result/image.result.jpg)
 
 ## 3d line detector
