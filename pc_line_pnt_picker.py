@@ -47,14 +47,10 @@ if __name__ == '__main__':
                     [0,0,-1],
                     [1,0,0]])
 
-    # R = np.array([  [0,1,0],
-    #                 [0,0,1],
-    #                 [1,0,0] ])
-
     new_pt = K @ R @ pts.T
     new_pt /= new_pt[2]
 
-    img = cv2.imread('image.png')
+    img = cv2.imread('raw_data/image.png')
 
     for x,y,_ in new_pt.T:
         if x > 0 and y>0:
