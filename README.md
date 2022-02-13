@@ -11,16 +11,25 @@ The cross product of lines oa and ob forms a Normal vector "N". The 3D line AB i
 
 where N is the number of correspondences available.
 
-picked_img_lines format:
+## Picked_img_lines format:
 corner1_x,corner1_y,corner2_x,corner2_y,phi,theta
 
-picked_edge_lines format:
+## Picked_edge_lines format:
 extreme_pt_1_x,extreme_pt_1_y,extreme_pt_1_z,extreme_pt_2_x,extreme_pt_2_y,extreme_pt_2_z
 
-img and pointcloud
+## img and pointcloud
+![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/raw_data/image.png)
+Fig. Image.png
 
-lsd detector
+![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/raw_data/raw_pointcloud.png)
+Fig. raw pointcloud
 
-3d line detector
+## lsd detector
+![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/img_line_detection_result/image.result.jpg)
 
-Calibration:
+## 3d line detector
+3d edge detected points are the yellow points which are projected onto the image
+![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/edge_3d_detection_result/edge_point.png)
+
+## Calibration:
+![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/results/result.gif)
