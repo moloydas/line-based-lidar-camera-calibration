@@ -11,12 +11,6 @@ The cross product of lines oa and ob forms a Normal vector "N". The 3D line AB i
 
 where N is the number of correspondences available.
 
-## Picked_img_lines format:
-corner1_x,corner1_y,corner2_x,corner2_y,phi,theta
-
-## Picked_edge_lines format:
-extreme_pt_1_x,extreme_pt_1_y,extreme_pt_1_z,extreme_pt_2_x,extreme_pt_2_y,extreme_pt_2_z
-
 ## img and pointcloud
 ![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/raw_data/image.png)
 Fig. Image.png
@@ -36,3 +30,9 @@ LSD used here is explained in the paper - ![LSD: A Fast Line Segment Detector wi
 ## Calibration:
 After detecting lines in the image and edge points in the pointcloud, the corresponding lines and points are hand picked and then used in the formulation explained in the beginning. 
 ![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/results/result.gif)
+
+## Picked_img_lines format:
+corner1_x,corner1_y,corner2_x,corner2_y,phi,theta
+
+## Picked_edge_lines format:
+extreme_pt_1_x,extreme_pt_1_y,extreme_pt_1_z,extreme_pt_2_x,extreme_pt_2_y,extreme_pt_2_z
