@@ -10,3 +10,17 @@ The cross product of lines oa and ob forms a Normal vector "N". The 3D line AB i
 ![](https://drive.google.com/uc?export=view&id=1LvHcWJZlXorP54SF5at6lRwebdqZF0JY)
 
 where N is the number of correspondences available.
+
+picked_img_lines format:
+corner1_x,corner1_y,corner2_x,corner2_y,phi,theta
+
+picked_edge_lines format:
+extreme_pt_1_x,extreme_pt_1_y,extreme_pt_1_z,extreme_pt_2_x,extreme_pt_2_y,extreme_pt_2_z
+
+img and pointcloud
+
+lsd detector
+
+3d line detector
+
+Calibration:
