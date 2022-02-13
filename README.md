@@ -30,8 +30,9 @@ LSD used here is explained in the paper - ![LSD: A Fast Line Segment Detector wi
 ![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/img_line_detection_result/image.result.jpg)
 
 ## 3d line detector
-3d edge detected points are the yellow points which are projected onto the image
+3d edge detected points are the yellow points which are projected onto the image.
 ![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/edge_3d_detection_result/edge_point.png)
 
 ## Calibration:
+After detecting lines in the image and edge points in the pointcloud, the corresponding lines and points are hand picked and then used in the formulation explained in the beginning. 
 ![](https://github.com/moloydas/line-based-lidar-camera-calibration/blob/master/results/result.gif)
